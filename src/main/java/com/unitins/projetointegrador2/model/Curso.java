@@ -13,6 +13,7 @@ public class Curso {
     private int id;
 
     private String descricao;
+    private String nome;
 
     @OneToMany
     private List<Professor> professores;
